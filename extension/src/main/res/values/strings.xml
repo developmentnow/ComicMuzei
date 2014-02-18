@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Marvel Muzei Extension</string>
+    <string name="source_name">Marvel</string>
+    <string name="source_description">Photos from Marvel</string>
+</resources>
