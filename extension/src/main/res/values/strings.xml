@@ -4,25 +4,153 @@
     <string name="source_description">Photos from Marvel</string>
 
 
-        <string-array name="character_names">
-            <item>Thor</item>
-            <item>Star-Lord</item>
-            <item>Doctor Strange</item>
-        </string-array>
+    <string-array name="character_names">
+        <item>Spider-Man</item>
+        <item>Iron Man</item>
+        <item>Wolverine</item>
+        <item>X-Men</item>
+        <item>Captain America</item>
+        <item>Fantastic Four</item>
+        <item>Black Widow</item>
+        <item>Daredevil</item>
+        <item>Luke Cage</item>
+        <item>Nick Fury</item>
+        <item>Doctor Doom</item>
+        <item>Deadpool</item>
+        <item>Blade</item>
+        <item>Black Panther</item>
+        <item>Guardians of the Galaxy</item>
+        <item>Thor</item>
+        <item>Hulk</item>
+        <item>Hawkeye</item>
+        <item>Doctor Strange</item>
+        <item>Silver Surfer</item>
+        <item>Howard the Duck</item>
+        <item>Punisher</item>
+        <item>Iron Fist</item>
+        <item>Moon Knight</item>
+        <item>Thanos</item>
+        <item>Carol Danvers</item>
+        <item>Elektra</item>
+        <item>Jessica Jones</item>
+        <item>She-Hulk</item>
+        <item>Adam Warlock</item>
+        <item>Alpha Flight</item>
+        <item>Sub-Mariner</item>
+        <item>Nova</item>
+        <item>Runaways</item>
+        <item>Power Pack</item>
+        <item>M.O.D.O.K.</item>
+        <item>Doctor Octopus</item>
+        <item>Loki</item>
+        <item>Red Skull</item>
+        <item>Man-Thing</item>
+        <item>Galactus</item>
+        <item>Dazzler</item>
+    </string-array>
     <string-array name="character_values">
+        <item>1009610</item>
+        <item>1009368</item>
+        <item>1009718</item>
+        <item>1009726</item>
+        <item>1009220</item>
+        <item>1009299</item>
+        <item>1009189</item>
+        <item>1009262</item>
+        <item>1009215</item>
+        <item>1009471</item>
+        <item>1009281</item>
+        <item>1009268</item>
+        <item>1009191</item>
+        <item>1009187</item>
+        <item>1011299</item>
         <item>1009664</item>
-        <item>1010733</item>
+        <item>1009351</item>
+        <item>1009338</item>
         <item>1009282</item>
+        <item>1009592</item>
+        <item>1010373</item>
+        <item>1009515</item>
+        <item>1009367</item>
+        <item>1009452</item>
+        <item>1009652</item>
+        <item>1010338</item>
+        <item>1009288</item>
+        <item>1009378</item>
+        <item>1009583</item>
+        <item>1010354</item>
+        <item>1010370</item>
+        <item>1010791</item>
+        <item>1009477</item>
+        <item>1010747</item>
+        <item>1010770</item>
+        <item>1010726</item>
+        <item>1009276</item>
+        <item>1009407</item>
+        <item>1009535</item>
+        <item>1009420</item>
+        <item>1009312</item>
+        <item>1009267</item>
     </string-array>
     <string-array name="artist_names">
-        <item>Jim Steranko</item>
         <item>Jack Kirby</item>
-        <item>Bill Sienkewicz</item>
+        <item>Steve Ditko</item>
+        <item>Jim Steranko</item>
+        <item>Don Heck</item>
+        <item>Jim Starlin</item>
+        <item>Bill Sienkiewicz</item>
+        <item>Doug Moench</item>
+        <item>John Byrne</item>
+        <item>Marc Silvestri</item>
+        <item>Jae Lee</item>
+        <item>Neal Adams</item>
+        <item>Bob Layton</item>
+        <item>Jim Lee</item>
+        <item>Todd McFarlane</item>
+        <item>Gil Kane</item>
+        <item>John Romimta, Jr.</item>
+        <item>Terry Austin</item>
+        <item>Dave Cockrum</item>
+        <item>John Buscema</item>
+        <item>Sal Buscema</item>
+        <item>Walter Simonson</item>
+        <item>Frank Miller</item>
+        <item>Frank Quitely</item>
+        <item>Mike Zeck</item>
+        <item>Klaus Janson</item>
+        <item>Herb Trimpe</item>
+        <item>George Perez</item>
+        <item>Alex Ross</item>
     </string-array>
     <string-array name="artist_values">
+        <item>196</item>
+        <item>32</item>
         <item>61</item>
-        <item>26</item>
+        <item>305</item>
         <item>146</item>
+        <item>26</item>
+        <item>223</item>
+        <item>1827</item>
+        <item>5044</item>
+        <item>56</item>
+        <item>314</item>
+        <item>1247</item>
+        <item>96</item>
+        <item>75</item>
+        <item>148</item>
+        <item>214</item>
+        <item>1836</item>
+        <item>46</item>
+        <item>1612</item>
+        <item>105</item>
+        <item>5125</item>
+        <item>17</item>
+        <item>66</item>
+        <item>3447</item>
+        <item>570</item>
+        <item>199</item>
+        <item>103</item>
+        <item>63</item>
     </string-array>
 
     <string name="title_settings">Settings</string>
