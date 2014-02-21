@@ -7,13 +7,18 @@ package com.marvelmuzei;
 import java.util.List;
 
 import retrofit.http.GET;
+import retrofit.http.Path;
 
 interface MarvelService {
 
-    @GET("/marvel/")
+    @GET("/")
     Character getCharacter();
 
+    @GET("/character/{CharacterID}")
+    Comic getComicByCharacter(@Path("CharacterID") String CharacterID);
 
+    @GET("/artist/{ArtistID}")
+    Comic getComicByArtist(@Path("ArtistID") String ArtistID);
 
     static class Character {
         int id;
@@ -32,5 +37,12 @@ interface MarvelService {
         String url;
     }
 
+    static class Comic {
+        int id;
+        String title;
+        List<Url> urls;
+        Image thumbnail;
+        String description;
+    }
 
 }

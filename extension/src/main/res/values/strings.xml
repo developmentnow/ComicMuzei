@@ -2,4 +2,42 @@
     <string name="app_name">Marvel Muzei Extension</string>
     <string name="source_name">Marvel</string>
     <string name="source_description">Photos from Marvel</string>
+
+
+        <string-array name="character_names">
+            <item>Thor</item>
+            <item>Star-Lord</item>
+            <item>Doctor Strange</item>
+        </string-array>
+    <string-array name="character_values">
+        <item>1009664</item>
+        <item>1010733</item>
+        <item>1009282</item>
+    </string-array>
+    <string-array name="artist_names">
+        <item>Jim Steranko</item>
+        <item>Jack Kirby</item>
+        <item>Bill Sienkewicz</item>
+    </string-array>
+    <string-array name="artist_values">
+        <item>61</item>
+        <item>26</item>
+        <item>146</item>
+    </string-array>
+
+    <string name="title_settings">Settings</string>
+    <string name="character_of_the_day">Character of the Day</string>
+    <string name="character_of_the_day_desc">Get a random character every day</string>
+
+    <string name="by_character">By Character</string>
+    <string name="by_character_desc">Get random comic covers involving selected characters</string>
+    <string name="by_character_header">Choose Characters</string>
+    <string name="choose_chars">Characters Selected: </string>
+
+    <string name="by_artist">By Cover Artist</string>
+    <string name="by_artist_desc">Get random comic covers drawn by selected artists</string>
+    <string name="by_artist_header">Choose Artists</string>
+    <string name="choose_artists">Artists Selected: </string>
+
+    <string name="none">None</string>
 </resources>
