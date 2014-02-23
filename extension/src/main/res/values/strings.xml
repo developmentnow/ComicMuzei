@@ -3,7 +3,40 @@
     <string name="source_name">Marvel</string>
     <string name="source_description">Photos from Marvel</string>
 
-
+    <string-array name="series_names">
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+    </string-array>
+    <string-array name="series_values">
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+        <item>xxx</item>
+    </string-array>
     <string-array name="character_names">
         <item>Spider-Man</item>
         <item>Iron Man</item>
@@ -108,7 +141,7 @@
         <item>Jim Lee</item>
         <item>Todd McFarlane</item>
         <item>Gil Kane</item>
-        <item>John Romimta, Jr.</item>
+        <item>John Romita, Jr.</item>
         <item>Terry Austin</item>
         <item>Dave Cockrum</item>
         <item>John Buscema</item>
@@ -121,6 +154,48 @@
         <item>Herb Trimpe</item>
         <item>George Perez</item>
         <item>Alex Ross</item>
+        <item>John Severin</item>
+        <item>Marie Severin</item>
+        <item>Art Adams</item>
+        <item>Nick Cardy</item>
+        <item>Howard Chaykin</item>
+        <item>Greg Horn</item>
+        <item>Gene Ha</item>
+        <item>Greg Land</item>
+        <item>Alex Maleev</item>
+        <item>Jim Valentino</item>
+        <item>Adam Hughes</item>
+        <item>Ed McGuinness</item>
+        <item>Stuart Immonen</item>
+        <item>Tony Harris</item>
+        <item>Charles Vess</item>
+        <item>Mike Allred</item>
+        <item>Al Milgrom</item>
+        <item>Alan Davis</item>
+        <item>Amanda Conner</item>
+        <item>Ron Wilson</item>
+        <item>Joe Sinnott</item>
+        <item>Rich Buckler</item>
+        <item>Humberto Ramos</item>
+        <item>Boris Vallejo</item>
+        <item>Armando Gil</item>
+        <item>Paul Smith</item>
+        <item>Esad Ribic</item>
+        <item>Mike Mayhew</item>
+        <item>Wade vonGrawbadger</item>
+        <item>Kevin Maguire</item>
+        <item>Russ Heath</item>
+        <item>Mike Vosburg</item>
+        <item>Earl Norem</item>
+        <item>Al Williamson</item>
+        <item>Alan Kupperberg</item>
+        <item>Alan Weiss</item>
+        <item>Adi Granov</item>
+        <item>Francesco Francavilla</item>
+        <item>Javier Pulido</item>
+        <item>Tim Bradstreet</item>
+        <item>David Finch</item>
+        <item>Mark Bagley</item>
     </string-array>
     <string-array name="artist_values">
         <item>196</item>
@@ -151,6 +226,48 @@
         <item>199</item>
         <item>103</item>
         <item>63</item>
+        <item>229</item>
+        <item>198</item>
+        <item>249</item>
+        <item>9189</item>
+        <item>808</item>
+        <item>11521</item>
+        <item>292</item>
+        <item>425</item>
+        <item>25</item>
+        <item>1333</item>
+        <item>7245</item>
+        <item>649</item>
+        <item>192</item>
+        <item>460</item>
+        <item>2042</item>
+        <item>95</item>
+        <item>435</item>
+        <item>16</item>
+        <item>8018</item>
+        <item>1219</item>
+        <item>1240</item>
+        <item>1216</item>
+        <item>72</item>
+        <item>1208</item>
+        <item>2695</item>
+        <item>431</item>
+        <item>182</item>
+        <item>243</item>
+        <item>552</item>
+        <item>780</item>
+        <item>1342</item>
+        <item>1331</item>
+        <item>3141</item>
+        <item>397</item>
+        <item>388</item>
+        <item>1290</item>
+        <item>436</item>
+        <item>11886</item>
+        <item>2985</item>
+        <item>1</item>
+        <item>248</item>
+        <item>87</item>
     </string-array>
 
     <string name="title_settings">Settings</string>
