@@ -125,151 +125,151 @@
         <item>1009312</item>
         <item>1009267</item>
     </string-array>
+
     <string-array name="artist_names">
-        <item>Jack Kirby</item>
-        <item>Steve Ditko</item>
-        <item>Jim Steranko</item>
-        <item>Don Heck</item>
-        <item>Jim Starlin</item>
-        <item>Bill Sienkiewicz</item>
-        <item>Doug Moench</item>
-        <item>John Byrne</item>
-        <item>Marc Silvestri</item>
-        <item>Jae Lee</item>
+        <item>Art Adams</item>
         <item>Neal Adams</item>
-        <item>Bob Layton</item>
-        <item>Jim Lee</item>
-        <item>Todd McFarlane</item>
-        <item>Gil Kane</item>
-        <item>John Romita, Jr.</item>
+        <item>Mike Allred</item>
         <item>Terry Austin</item>
-        <item>Dave Cockrum</item>
+        <item>Mark Bagley</item>
+        <item>Tim Bradstreet</item>
+        <item>Rich Buckler</item>
         <item>John Buscema</item>
         <item>Sal Buscema</item>
-        <item>Walter Simonson</item>
-        <item>Frank Miller</item>
-        <item>Frank Quitely</item>
-        <item>Mike Zeck</item>
+        <item>John Byrne</item>
+        <item>Nick Cardy</item>
+        <item>Howard Chaykin</item>
+        <item>Dave Cockrum</item>
+        <item>Amanda Conner</item>
+        <item>Alan Davis</item>
+        <item>Steve Ditko</item>
+        <item>David Finch</item>
+        <item>Francesco Francavilla</item>
+        <item>Armando Gil</item>
+        <item>Adi Granov</item>
+        <item>Gene Ha</item>
+        <item>Tony Harris</item>
+        <item>Russ Heath</item>
+        <item>Don Heck</item>
+        <item>Greg Horn</item>
+        <item>Adam Hughes</item>
+        <item>Stuart Immonen</item>
         <item>Klaus Janson</item>
-        <item>Herb Trimpe</item>
+        <item>Gil Kane</item>
+        <item>Jack Kirby</item>
+        <item>Alan Kupperberg</item>
+        <item>Greg Land</item>
+        <item>Bob Layton</item>
+        <item>Jae Lee</item>
+        <item>Jim Lee</item>
+        <item>Kevin Maguire</item>
+        <item>Alex Maleev</item>
+        <item>Mike Mayhew</item>
+        <item>Todd McFarlane</item>
+        <item>Ed McGuinness</item>
+        <item>Al Milgrom</item>
+        <item>Frank Miller</item>
+        <item>Doug Moench</item>
+        <item>Earl Norem</item>
         <item>George Perez</item>
+        <item>Javier Pulido</item>
+        <item>Frank Quitely</item>
+        <item>Humberto Ramos</item>
+        <item>Esad Ribic</item>
+        <item>John Romita, Jr.</item>
         <item>Alex Ross</item>
         <item>John Severin</item>
         <item>Marie Severin</item>
-        <item>Art Adams</item>
-        <item>Nick Cardy</item>
-        <item>Howard Chaykin</item>
-        <item>Greg Horn</item>
-        <item>Gene Ha</item>
-        <item>Greg Land</item>
-        <item>Alex Maleev</item>
-        <item>Jim Valentino</item>
-        <item>Adam Hughes</item>
-        <item>Ed McGuinness</item>
-        <item>Stuart Immonen</item>
-        <item>Tony Harris</item>
-        <item>Charles Vess</item>
-        <item>Mike Allred</item>
-        <item>Al Milgrom</item>
-        <item>Alan Davis</item>
-        <item>Amanda Conner</item>
-        <item>Ron Wilson</item>
+        <item>Bill Sienkiewicz</item>
+        <item>Marc Silvestri</item>
+        <item>Walter Simonson</item>
         <item>Joe Sinnott</item>
-        <item>Rich Buckler</item>
-        <item>Humberto Ramos</item>
-        <item>Boris Vallejo</item>
-        <item>Armando Gil</item>
         <item>Paul Smith</item>
-        <item>Esad Ribic</item>
-        <item>Mike Mayhew</item>
+        <item>Jim Starlin</item>
+        <item>Jim Steranko</item>
+        <item>Herb Trimpe</item>
+        <item>Jim Valentino</item>
+        <item>Boris Vallejo</item>
+        <item>Charles Vess</item>
         <item>Wade vonGrawbadger</item>
-        <item>Kevin Maguire</item>
-        <item>Russ Heath</item>
         <item>Mike Vosburg</item>
-        <item>Earl Norem</item>
-        <item>Al Williamson</item>
-        <item>Alan Kupperberg</item>
         <item>Alan Weiss</item>
-        <item>Adi Granov</item>
-        <item>Francesco Francavilla</item>
-        <item>Javier Pulido</item>
-        <item>Tim Bradstreet</item>
-        <item>David Finch</item>
-        <item>Mark Bagley</item>
+        <item>Al Williamson</item>
+        <item>Ron Wilson</item>
+        <item>Mike Zeck</item>
     </string-array>
     <string-array name="artist_values">
-        <item>196</item>
-        <item>32</item>
-        <item>61</item>
-        <item>305</item>
-        <item>146</item>
-        <item>26</item>
-        <item>223</item>
-        <item>1827</item>
-        <item>5044</item>
-        <item>56</item>
+        <item>249</item>
         <item>314</item>
-        <item>1247</item>
-        <item>96</item>
-        <item>75</item>
-        <item>148</item>
-        <item>214</item>
+        <item>95</item>
         <item>1836</item>
-        <item>46</item>
+        <item>87</item>
+        <item>1</item>
+        <item>1216</item>
         <item>1612</item>
         <item>105</item>
-        <item>5125</item>
-        <item>17</item>
-        <item>66</item>
-        <item>3447</item>
+        <item>1827</item>
+        <item>9189</item>
+        <item>808</item>
+        <item>46</item>
+        <item>8018</item>
+        <item>16</item>
+        <item>32</item>
+        <item>248</item>
+        <item>11886</item>
+        <item>2695</item>
+        <item>436</item>
+        <item>292</item>
+        <item>460</item>
+        <item>1342</item>
+        <item>305</item>
+        <item>11521</item>
+        <item>7245</item>
+        <item>192</item>
         <item>570</item>
-        <item>199</item>
+        <item>148</item>
+        <item>196</item>
+        <item>388</item>
+        <item>425</item>
+        <item>1247</item>
+        <item>56</item>
+        <item>96</item>
+        <item>780</item>
+        <item>25</item>
+        <item>243</item>
+        <item>75</item>
+        <item>649</item>
+        <item>435</item>
+        <item>17</item>
+        <item>223</item>
+        <item>3141</item>
         <item>103</item>
+        <item>2985</item>
+        <item>66</item>
+        <item>72</item>
+        <item>182</item>
+        <item>214</item>
         <item>63</item>
         <item>229</item>
         <item>198</item>
-        <item>249</item>
-        <item>9189</item>
-        <item>808</item>
-        <item>11521</item>
-        <item>292</item>
-        <item>425</item>
-        <item>25</item>
-        <item>1333</item>
-        <item>7245</item>
-        <item>649</item>
-        <item>192</item>
-        <item>460</item>
-        <item>2042</item>
-        <item>95</item>
-        <item>435</item>
-        <item>16</item>
-        <item>8018</item>
-        <item>1219</item>
+        <item>26</item>
+        <item>5044</item>
+        <item>5125</item>
         <item>1240</item>
-        <item>1216</item>
-        <item>72</item>
-        <item>1208</item>
-        <item>2695</item>
         <item>431</item>
-        <item>182</item>
-        <item>243</item>
+        <item>146</item>
+        <item>61</item>
+        <item>199</item>
+        <item>1333</item>
+        <item>1208</item>
+        <item>2042</item>
         <item>552</item>
-        <item>780</item>
-        <item>1342</item>
         <item>1331</item>
-        <item>3141</item>
-        <item>397</item>
-        <item>388</item>
         <item>1290</item>
-        <item>436</item>
-        <item>11886</item>
-        <item>2985</item>
-        <item>1</item>
-        <item>248</item>
-        <item>87</item>
+        <item>397</item>
+        <item>1219</item>
+        <item>3447</item>
     </string-array>
-
     <string name="title_settings">Settings</string>
     <string name="character_of_the_day">Character of the Day</string>
     <string name="character_of_the_day_desc">Get a random character every day</string>

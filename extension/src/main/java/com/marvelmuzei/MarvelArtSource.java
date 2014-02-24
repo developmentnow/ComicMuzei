@@ -25,6 +25,7 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
     private static final String SOURCE_NAME = "MarvelArtSource";
 
     private static final int ROTATE_TIME_MILLIS = 24 * 60 * 60 * 1000; // Rotate Every Day
+    private static final int RETRY_TIME_MILLIS = 60 * 60 * 1000; // Retry in an hour
 
     public MarvelArtSource() {
         super(SOURCE_NAME);
@@ -44,6 +45,10 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
                 .setErrorHandler(new ErrorHandler() {
                     @Override
                     public Throwable handleError(RetrofitError retrofitError) {
+                        if (retrofitError == null || retrofitError.getResponse() == null) {
+                            scheduleUpdate(System.currentTimeMillis() + RETRY_TIME_MILLIS);
+                            return new RetryException();
+                        }
                         Integer statusCode = retrofitError.getResponse().getStatus();
                         if (retrofitError.isNetworkError()
                                 || (500 <= statusCode && statusCode < 600)) {
@@ -84,9 +89,17 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
                             Uri.parse(character.urls.get(0).url)))
                     .build());
         } else {
+            String description = null;
+            for (int i = 0; i < comic.creators.items.length; i++) {
+                if (comic.creators.items[i].role.equals("penciller (cover)")) {
+                    description =  comic.creators.items[i].name;
+                    break;
+                }
+            }
+
             publishArtwork(new Artwork.Builder()
                     .title(comic.title)
-                    .byline(comic.description)
+                    .byline(description)
                     .imageUri(Uri.parse(comic.thumbnail.path + ".jpg"))
                     .token(Integer.toString(comic.id))
                     .viewIntent(new Intent(Intent.ACTION_VIEW,
