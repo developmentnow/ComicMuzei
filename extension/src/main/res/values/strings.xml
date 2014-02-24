@@ -2,128 +2,83 @@
     <string name="app_name">Marvel Muzei Extension</string>
     <string name="source_name">Marvel</string>
     <string name="source_description">Photos from Marvel</string>
-
-    <string-array name="series_names">
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-    </string-array>
-    <string-array name="series_values">
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-        <item>xxx</item>
-    </string-array>
     <string-array name="character_names">
-        <item>Spider-Man</item>
-        <item>Iron Man</item>
-        <item>Wolverine</item>
-        <item>X-Men</item>
-        <item>Captain America</item>
-        <item>Fantastic Four</item>
-        <item>Black Widow</item>
-        <item>Daredevil</item>
-        <item>Luke Cage</item>
-        <item>Nick Fury</item>
-        <item>Doctor Doom</item>
-        <item>Deadpool</item>
-        <item>Blade</item>
-        <item>Black Panther</item>
-        <item>Guardians of the Galaxy</item>
-        <item>Thor</item>
-        <item>Hulk</item>
-        <item>Hawkeye</item>
-        <item>Doctor Strange</item>
-        <item>Silver Surfer</item>
-        <item>Howard the Duck</item>
-        <item>Punisher</item>
-        <item>Iron Fist</item>
-        <item>Moon Knight</item>
-        <item>Thanos</item>
-        <item>Carol Danvers</item>
-        <item>Elektra</item>
-        <item>Jessica Jones</item>
-        <item>She-Hulk</item>
         <item>Adam Warlock</item>
         <item>Alpha Flight</item>
-        <item>Sub-Mariner</item>
-        <item>Nova</item>
-        <item>Runaways</item>
-        <item>Power Pack</item>
-        <item>M.O.D.O.K.</item>
-        <item>Doctor Octopus</item>
-        <item>Loki</item>
-        <item>Red Skull</item>
-        <item>Man-Thing</item>
-        <item>Galactus</item>
+        <item>The Avengers</item>
+        <item>Black Panther</item>
+        <item>Black Widow</item>
+        <item>Cable</item>
+        <item>Captain America</item>
+        <item>Captain Marvel</item>
+        <item>Daredevil</item>
         <item>Dazzler</item>
+        <item>Deadpool</item>
+        <item>Defenders</item>
+        <item>Doctor Strange</item>
+        <item>Dracula</item>
+        <item>Fantastic Four</item>
+        <item>Ghost Rider</item>
+        <item>Guardians of the Galaxy</item>
+        <item>Hawkeye</item>
+        <item>Howard the Duck</item>
+        <item>Hulk</item>
+        <item>Iron Fist</item>
+        <item>Iron Man</item>
+        <item>Jessica Jones</item>
+        <item>Moon Knight</item>
+        <item>New Mutants</item>
+        <item>Nick Fury</item>
+        <item>Nova</item>
+        <item>Punisher</item>
+        <item>She-Hulk</item>
+        <item>Silver Surfer</item>
+        <item>Spider-Man</item>
+        <item>Sub-Mariner</item>
+        <item>Thor</item>
+        <item>Thunderbolts</item>
+        <item>Werewolf by Night</item>
+        <item>Wolverine</item>
+        <item>X-Men</item>
     </string-array>
     <string-array name="character_values">
-        <item>1009610</item>
-        <item>1009368</item>
-        <item>1009718</item>
-        <item>1009726</item>
-        <item>1009220</item>
-        <item>1009299</item>
-        <item>1009189</item>
-        <item>1009262</item>
-        <item>1009215</item>
-        <item>1009471</item>
-        <item>1009281</item>
-        <item>1009268</item>
-        <item>1009191</item>
-        <item>1009187</item>
-        <item>1011299</item>
-        <item>1009664</item>
-        <item>1009351</item>
-        <item>1009338</item>
-        <item>1009282</item>
-        <item>1009592</item>
-        <item>1010373</item>
-        <item>1009515</item>
-        <item>1009367</item>
-        <item>1009452</item>
-        <item>1009652</item>
-        <item>1010338</item>
-        <item>1009288</item>
-        <item>1009378</item>
-        <item>1009583</item>
-        <item>1010354</item>
-        <item>1010370</item>
-        <item>1010791</item>
-        <item>1009477</item>
-        <item>1010747</item>
-        <item>1010770</item>
-        <item>1010726</item>
-        <item>1009276</item>
-        <item>1009407</item>
-        <item>1009535</item>
-        <item>1009420</item>
-        <item>1009312</item>
-        <item>1009267</item>
+        <item>2091,3654,6686</item>
+        <item>2116</item>
+        <item>354,1991,1991,1991,1991,1991,1991,1991,1991,1991,3621,16452,9085,9086,1866,18309,16451,3631,3623,3623,3630,3632,2111</item>
+        <item>11665,3627,1993,2115</item>
+        <item>18138,9706</item>
+        <item>4002,16907,6668,1995,1995</item>
+        <item>485,1997,16516,6478,1996,1996,1996,1996,1996,1996,12105,1998,1998,3629</item>
+        <item>2000</item>
+        <item>18457,12916,2002,2002,2002,2002,2002,2002,2002,2902,3906,3897,449,449</item>
+        <item>3745</item>
+        <item>16542,5701,9045,8865,2003,2004,2005,2005</item>
+        <item>17370,3743,3743,3743</item>
+        <item>2985,3740,3740,3740,3741,3741</item>
+        <item>2084,6672</item>
+        <item>725,16557,421,421,18700,16561,13440,2121,2121,2121,2121,2121,2121,2121,2121,2012,6070,2123,2119</item>
+        <item>1104,2013,2013,6255,6255</item>
+        <item>16410,17754,6257,4885</item>
+        <item>12105,16309,9896,685,13160</item>
+        <item>4767,4766</item>
+        <item>3374,18834,8842,16583,2021,2021,2021,2021,2021,2021,2021,2021,2983</item>
+        <item>18539,6252,1140</item>
+        <item>4889,16593,18542,835,2572,2030,2029,2029,2029,2029,2029,2029,3723,13577</item>
+        <item>672,674</item>
+        <item>18467,947,10639</item>
+        <item>7455,2055,2055,2053,563</item>
+        <item>2067,2067,6683,8854,8853,8852</item>
+        <item>6679,6679,6679,6679</item>
+        <item>5263,5860,2065,6681,6601,3698,698,1112,12550,18572,14019</item>
+        <item>2291,18472,731,886</item>
+        <item>2585,2288,2068</item>
+        <item>16859,17285,454,14246,877,1987,1987,1987,1987,1987,1987,1987,1987,2984,2271,2271,2271,2271,2092,2092,2069,2069,2070,2088,2292,2060</item>
+        <item>2077,2077,2989</item>
+        <item>2032,2032,2032,2083,2083,2083,2083,2083,2083,2978,581,581</item>
+        <item>2296,788,18527</item>
+        <item>6687</item>
+        <item>2096,5264,2262,2262,2262</item>
+        <item>18136,16449,18142,744,2258,2258,2258,2258,2258,2258,2258,2258,2258,2258,1988,3751,3917,2098,2098,2098,2265,2265,3637,6256</item>
     </string-array>
 
     <string-array name="artist_names">
@@ -176,7 +131,7 @@
         <item>Frank Quitely</item>
         <item>Humberto Ramos</item>
         <item>Esad Ribic</item>
-        <item>John Romita, Jr.</item>
+        <item>John Romita,Jr.</item>
         <item>Alex Ross</item>
         <item>John Severin</item>
         <item>Marie Severin</item>

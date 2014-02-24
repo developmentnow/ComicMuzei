@@ -7,7 +7,10 @@ package com.marvelmuzei;
 import java.util.List;
 
 import retrofit.http.Body;
+import retrofit.http.Field;
+import retrofit.http.FormUrlEncoded;
 import retrofit.http.GET;
+import retrofit.http.POST;
 import retrofit.http.PUT;
 import retrofit.http.Path;
 
@@ -16,11 +19,13 @@ interface MarvelService {
     @GET("/")
     Character getCharacter();
 
-    @PUT("/character/")
-    Comic getComicByCharacter(@Body String CharacterID);
+    @FormUrlEncoded
+    @POST("/series/index.php")
+    Comic getComicByCharacter(@Field("id") String CharacterID);
 
-    @PUT("/artist/")
-    Comic getComicByArtist(@Body String ArtistID);
+    @FormUrlEncoded
+    @POST("/artist/index.php")
+    Comic getComicByArtist(@Field("id") String ArtistID);
 
     static class Character {
         int id;

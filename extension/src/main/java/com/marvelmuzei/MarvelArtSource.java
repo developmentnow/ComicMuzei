@@ -9,11 +9,8 @@ import android.text.TextUtils;
 
 import com.google.android.apps.muzei.api.Artwork;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 
 import retrofit.ErrorHandler;
-import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;
 
