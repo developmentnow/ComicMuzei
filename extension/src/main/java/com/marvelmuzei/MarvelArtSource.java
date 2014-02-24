@@ -93,7 +93,7 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
                     .viewIntent(new Intent(Intent.ACTION_VIEW,
                             Uri.parse(character.urls.get(0).url)))
                     .build());
-        } else if (comic != null) {
+        } else if (comic != null && comic.creators != null) {
 
             for (int i = 0; i < comic.creators.items.length; i++) {
                 if (comic.creators.items[i].role.equals("penciller (cover)")) {
