@@ -1,4 +1,4 @@
-package com.marvelmuzei;
+package com.developmentnow.marvelmuzei;
 
 import android.app.AlertDialog;
 import android.content.Context;

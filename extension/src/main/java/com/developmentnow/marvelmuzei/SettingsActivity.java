@@ -1,14 +1,14 @@
-package com.marvelmuzei;
+package com.developmentnow.marvelmuzei;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
-import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.view.MenuItem;
+import com.developmentnow.marvelmuzei.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.marvelmuzei;
+package com.developmentnow.marvelmuzei;
 
 import com.google.android.apps.muzei.api.RemoteMuzeiArtSource;
 import android.content.Intent;
@@ -11,6 +11,7 @@ import android.util.Log;
 import com.google.android.apps.muzei.api.Artwork;
 
 
+import com.developmentnow.marvelmuzei.R;
 import retrofit.ErrorHandler;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;

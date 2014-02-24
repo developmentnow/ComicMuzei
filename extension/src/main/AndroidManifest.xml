@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.marvelmuzei"
+    package="com.developmentnow.marvelmuzei"
     android:versionCode="1.0"
     android:versionName="1">
 
@@ -13,7 +13,7 @@
                  android:label="@string/app_name"
                  android:icon="@drawable/logo">
 
-    <service android:name="com.marvelmuzei.MarvelArtSource"
+    <service android:name="com.developmentnow.marvelmuzei.MarvelArtSource"
              android:label="@string/source_name"
              android:description="@string/source_description"
              android:icon="@drawable/logo">
@@ -26,7 +26,7 @@
             android:value=".SettingsActivity" />
     </service>
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.developmentnow.marvelmuzei.SettingsActivity"
             android:label="@string/title_settings"
             android:exported="true"
             android:theme="@style/Theme.MarvelMuzei.Settings" />
