@@ -93,11 +93,13 @@
         <item>Sal Buscema</item>
         <item>John Byrne</item>
         <item>Nick Cardy</item>
+        <!--item>Frank Cirocco</item-->
         <item>Howard Chaykin</item>
         <item>Dave Cockrum</item>
         <item>Amanda Conner</item>
         <item>Alan Davis</item>
         <item>Steve Ditko</item>
+        <item>Kieron Dwyer</item>
         <item>David Finch</item>
         <item>Francesco Francavilla</item>
         <item>Armando Gil</item>
@@ -144,7 +146,7 @@
         <item>Jim Steranko</item>
         <item>Herb Trimpe</item>
         <item>Jim Valentino</item>
-        <item>Boris Vallejo</item>
+        <!--item>Boris Vallejo</item-->
         <item>Charles Vess</item>
         <item>Wade vonGrawbadger</item>
         <item>Mike Vosburg</item>
@@ -165,11 +167,13 @@
         <item>105</item>
         <item>1827</item>
         <item>9189</item>
+        <!--item>6850</item-->
         <item>808</item>
         <item>46</item>
         <item>8018</item>
         <item>16</item>
         <item>32</item>
+        <item>180</item>
         <item>248</item>
         <item>11886</item>
         <item>2695</item>
@@ -216,7 +220,7 @@
         <item>61</item>
         <item>199</item>
         <item>1333</item>
-        <item>1208</item>
+        <!--item>1208</item-->
         <item>2042</item>
         <item>552</item>
         <item>1331</item>
@@ -238,6 +242,7 @@
     <string name="by_artist_desc">Get random comic covers drawn by selected artists</string>
     <string name="by_artist_header">Choose Artists</string>
     <string name="choose_artists">Artists Selected: </string>
+    <string name="attribution">Data provided by Marvel. © 2014 Marvel</string>
 
     <string name="none">None</string>
 </resources>

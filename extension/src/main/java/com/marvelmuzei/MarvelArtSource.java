@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.google.android.apps.muzei.api.Artwork;
 
@@ -44,7 +45,7 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
                     public Throwable handleError(RetrofitError retrofitError) {
                         if (retrofitError == null || retrofitError.getResponse() == null) {
                             scheduleUpdate(System.currentTimeMillis() + RETRY_TIME_MILLIS);
-                            return new RetryException();
+                            return retrofitError;
                         }
                         Integer statusCode = retrofitError.getResponse().getStatus();
                         if (retrofitError.isNetworkError()
@@ -64,10 +65,12 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
         if (prefs.getBoolean(SettingsActivity.KEY_PREF_BY_CHARACTER, false)) {
             String[] raw = TextUtils.split(prefs.getString(SettingsActivity.KEY_PREF_CHARACTERS, ""), SettingsActivity.SEPARATOR);
             String chars = TextUtils.join(",", raw);
+            Log.d("MM", "Get Characters: " + chars);
             comic = service.getComicByCharacter(chars);
         } else if (prefs.getBoolean(SettingsActivity.KEY_PREF_BY_ARTIST, false)) {
             String[] raw = TextUtils.split(prefs.getString(SettingsActivity.KEY_PREF_ARTISTS, ""), SettingsActivity.SEPARATOR);
             String artists = TextUtils.join(",", raw);
+            Log.d("MM", "Get Artists: " + artists);
             comic = service.getComicByArtist(artists);
         } else {
             character = service.getCharacter();
@@ -76,24 +79,29 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
         if (character == null && comic == null) {
             throw new RetryException();
         }
+        String attribution = getResources().getString(R.string.attribution);
+        String description = "";
         if (character != null) {
+            if (character.description != null && !character.description.equals(""))
+                description = character.description + "\n";
+            description += attribution;
             publishArtwork(new Artwork.Builder()
                     .title(character.name)
-                    .byline(character.description)
+                    .byline(description)
                     .imageUri(Uri.parse(character.thumbnail.path + ".jpg"))
                     .token(Integer.toString(character.id))
                     .viewIntent(new Intent(Intent.ACTION_VIEW,
                             Uri.parse(character.urls.get(0).url)))
                     .build());
-        } else {
-            String description = null;
+        } else if (comic != null) {
+
             for (int i = 0; i < comic.creators.items.length; i++) {
                 if (comic.creators.items[i].role.equals("penciller (cover)")) {
-                    description =  comic.creators.items[i].name;
+                    description =  comic.creators.items[i].name + "\n";
                     break;
                 }
             }
-
+            description += attribution;
             publishArtwork(new Artwork.Builder()
                     .title(comic.title)
                     .byline(description)
