@@ -20,11 +20,11 @@ interface MarvelService {
     Character getCharacter();
 
     @FormUrlEncoded
-    @POST("/series/index.php")
+    @POST("/series/")
     Comic getComicByCharacter(@Field("id") String CharacterID);
 
     @FormUrlEncoded
-    @POST("/artist/index.php")
+    @POST("/artist/")
     Comic getComicByArtist(@Field("id") String ArtistID);
 
     static class Character {

@@ -39,7 +39,7 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
     protected void onTryUpdate(int reason) throws RetryException {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setServer("http://marvel.kubetown.com")
+                .setServer("http://marvel.communityfoc.us")
                 .setErrorHandler(new ErrorHandler() {
                     @Override
                     public Throwable handleError(RetrofitError retrofitError) {
