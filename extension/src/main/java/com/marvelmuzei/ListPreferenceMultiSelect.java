@@ -34,6 +34,8 @@ public class ListPreferenceMultiSelect extends ListPreference {
         CharSequence[] entries = getEntries();
         CharSequence[] entryValues = getEntryValues();
 
+        builder.setNegativeButton(null,null);
+
         if (entries == null || entryValues == null || entries.length != entryValues.length ) {
             throw new IllegalStateException(
                     "ListPreference requires an entries array and an entryValues array which are both the same length");
@@ -96,5 +98,6 @@ public class ListPreferenceMultiSelect extends ListPreference {
                 setValue(val);
             }
         }
+
     }
 }

@@ -29,6 +29,7 @@ public class SettingsActivity extends PreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         addPreferencesFromResource(R.xml.preferences);
         findPreference("pref_key_input_0").setOnPreferenceChangeListener(CheckboxChanger);
