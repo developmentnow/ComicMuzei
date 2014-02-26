@@ -1,4 +1,4 @@
-MarvelMuzei
+ComicMuzei
 ===========
 
 Muzei extension for Marvel Comics images
