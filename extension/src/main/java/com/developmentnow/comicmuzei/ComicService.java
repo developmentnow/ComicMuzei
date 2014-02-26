@@ -1,4 +1,4 @@
-package com.developmentnow.marvelmuzei;
+package com.developmentnow.comicmuzei;
 
 /**
  * Created by james on 2/17/14.
@@ -14,7 +14,7 @@ import retrofit.http.POST;
 import retrofit.http.PUT;
 import retrofit.http.Path;
 
-interface MarvelService {
+interface ComicService {
 
     @GET("/")
     Character getCharacter();

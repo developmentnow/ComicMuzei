@@ -1,4 +1,4 @@
-package com.developmentnow.marvelmuzei;
+package com.developmentnow.comicmuzei;
 
 import com.google.android.apps.muzei.api.RemoteMuzeiArtSource;
 import android.content.Intent;
@@ -19,14 +19,14 @@ import retrofit.RetrofitError;
 /**
  * Created by james on 2/17/14.
  */
-public class MarvelArtSource extends RemoteMuzeiArtSource {
+public class ComicArtSource extends RemoteMuzeiArtSource {
     private static final String TAG = "Marvel";
-    private static final String SOURCE_NAME = "MarvelArtSource";
+    private static final String SOURCE_NAME = "ComicArtSource";
 
     private static final int ROTATE_TIME_MILLIS = 24 * 60 * 60 * 1000; // Rotate Every Day
     private static final int RETRY_TIME_MILLIS = 60 * 60 * 1000; // Retry in an hour
 
-    public MarvelArtSource() {
+    public ComicArtSource() {
         super(SOURCE_NAME);
     }
 
@@ -59,10 +59,10 @@ public class MarvelArtSource extends RemoteMuzeiArtSource {
                 })
                 .build();
 
-        MarvelService service = restAdapter.create(MarvelService.class);
+        ComicService service = restAdapter.create(ComicService.class);
 
-        MarvelService.Comic comic = null;
-        MarvelService.Character character = null;
+        ComicService.Comic comic = null;
+        ComicService.Character character = null;
         if (prefs.getBoolean(SettingsActivity.KEY_PREF_BY_CHARACTER, false)) {
             String[] raw = TextUtils.split(prefs.getString(SettingsActivity.KEY_PREF_CHARACTERS, ""), SettingsActivity.SEPARATOR);
             String chars = TextUtils.join(",", raw);

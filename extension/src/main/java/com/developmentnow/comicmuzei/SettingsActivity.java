@@ -1,4 +1,4 @@
-package com.developmentnow.marvelmuzei;
+package com.developmentnow.comicmuzei;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
