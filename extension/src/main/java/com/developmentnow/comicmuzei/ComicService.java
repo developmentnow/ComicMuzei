@@ -20,11 +20,11 @@ interface ComicService {
     Character getCharacter();
 
     @FormUrlEncoded
-    @POST("/series/")
+    @POST("/Series/")
     Comic getComicByCharacter(@Field("id") String CharacterID);
 
     @FormUrlEncoded
-    @POST("/artist/")
+    @POST("/Artist/")
     Comic getComicByArtist(@Field("id") String ArtistID);
 
     static class Character {
