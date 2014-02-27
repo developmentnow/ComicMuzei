@@ -11,7 +11,9 @@
 
     <application android:allowBackup="true"
                  android:label="@string/app_name"
-                 android:icon="@drawable/logo">
+                 android:icon="@drawable/logo"
+                 <!--android:debuggable="false"-->
+        >
 
     <service android:name=".ComicArtSource"
              android:label="@string/source_name"
