@@ -8,7 +8,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.view.MenuItem;
-import com.developmentnow.marvelmuzei.R;
+import com.developmentnow.comicmuzei.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

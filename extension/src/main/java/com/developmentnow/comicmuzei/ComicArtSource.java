@@ -11,7 +11,7 @@ import android.util.Log;
 import com.google.android.apps.muzei.api.Artwork;
 
 
-import com.developmentnow.marvelmuzei.R;
+import com.developmentnow.comicmuzei.R;
 import retrofit.ErrorHandler;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;

@@ -20,7 +20,7 @@
         <intent-filter>
             <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource" />
         </intent-filter>
-        <meta-data android:name="color" android:value="#f00" />
+        <meta-data android:name="color" android:value="#fff200" />
         <meta-data
             android:name="settingsActivity"
             android:value=".SettingsActivity" />
@@ -29,7 +29,7 @@
             android:name="com.developmentnow.comicmuzei.SettingsActivity"
             android:label="@string/title_settings"
             android:exported="true"
-            android:theme="@style/Theme.ComicMusei.Settings" />
+            android:theme="@style/Theme.ComicMuzei.Settings" />
 </application>
 
 </manifest>
