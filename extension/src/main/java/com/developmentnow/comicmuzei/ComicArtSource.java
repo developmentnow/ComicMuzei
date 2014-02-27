@@ -20,7 +20,7 @@ import retrofit.RetrofitError;
  * Created by james on 2/17/14.
  */
 public class ComicArtSource extends RemoteMuzeiArtSource {
-    private static final String TAG = "Marvel";
+    private static final String TAG = "ComicMuzei";
     private static final String SOURCE_NAME = "ComicArtSource";
 
     private static final int ROTATE_TIME_MILLIS = 24 * 60 * 60 * 1000; // Rotate Every Day

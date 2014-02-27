@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Marvel Muzei Extension</string>
-    <string name="source_name">Marvel</string>
-    <string name="source_description">Photos from Marvel</string>
+    <string name="app_name">Comic Muzei Extension</string>
+    <string name="source_name">ComicMuzei</string>
+    <string name="source_description">Images from Marvel Comics</string>
     <string-array name="character_names">
         <item>Adam Warlock</item>
         <item>Alpha Flight</item>
