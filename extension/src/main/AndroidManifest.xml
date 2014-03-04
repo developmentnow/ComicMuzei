@@ -15,7 +15,7 @@
                  android:debuggable="false"
         >
 
-    <service android:name=".ComicArtSource"
+    <service android:name="com.developmentnow.comicmuzei.ComicArtSource"
              android:label="@string/source_name"
              android:description="@string/source_description"
              android:icon="@drawable/flat">

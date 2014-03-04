@@ -66,12 +66,12 @@ public class ComicArtSource extends RemoteMuzeiArtSource {
         if (prefs.getBoolean(SettingsActivity.KEY_PREF_BY_CHARACTER, false)) {
             String[] raw = TextUtils.split(prefs.getString(SettingsActivity.KEY_PREF_CHARACTERS, ""), SettingsActivity.SEPARATOR);
             String chars = TextUtils.join(",", raw);
-            Log.d("MM", "Get Characters: " + chars);
+            Log.d("CM", "Get Characters: " + chars);
             comic = service.getComicByCharacter(chars);
         } else if (prefs.getBoolean(SettingsActivity.KEY_PREF_BY_ARTIST, false)) {
             String[] raw = TextUtils.split(prefs.getString(SettingsActivity.KEY_PREF_ARTISTS, ""), SettingsActivity.SEPARATOR);
             String artists = TextUtils.join(",", raw);
-            Log.d("MM", "Get Artists: " + artists);
+            Log.d("CM", "Get Artists: " + artists);
             comic = service.getComicByArtist(artists);
         } else {
             character = service.getCharacter();
@@ -82,6 +82,8 @@ public class ComicArtSource extends RemoteMuzeiArtSource {
         }
         String attribution = getResources().getString(R.string.attribution);
         String description = "";
+
+        //Display Character of the Day
         if (character != null) {
             if (character.description != null && !character.description.equals(""))
                 description = character.description + "\n";
@@ -89,16 +91,19 @@ public class ComicArtSource extends RemoteMuzeiArtSource {
             publishArtwork(new Artwork.Builder()
                     .title(character.name)
                     .byline(description)
-                    .imageUri(Uri.parse(character.thumbnail.path + ".jpg"))
+                    .imageUri(Uri.parse(character.thumbnail.path + character.thumbnail.extension))
                     .token(Integer.toString(character.id))
                     .viewIntent(new Intent(Intent.ACTION_VIEW,
                             Uri.parse(character.urls.get(0).url)))
                     .build());
-        } else if (comic != null && comic.creators != null) {
+        }
+
+        // Display Comic
+        else if (comic != null && comic.creators != null) {
 
             for (int i = 0; i < comic.creators.items.length; i++) {
                 if (comic.creators.items[i].role.equals("penciller (cover)")) {
-                    description =  comic.creators.items[i].name + "\n";
+                    description = comic.creators.items[i].name + "\n";
                     break;
                 }
             }
@@ -106,7 +111,7 @@ public class ComicArtSource extends RemoteMuzeiArtSource {
             publishArtwork(new Artwork.Builder()
                     .title(comic.title)
                     .byline(description)
-                    .imageUri(Uri.parse(comic.thumbnail.path + ".jpg"))
+                    .imageUri(Uri.parse(comic.thumbnail.path + comic.thumbnail.extension))
                     .token(Integer.toString(comic.id))
                     .viewIntent(new Intent(Intent.ACTION_VIEW,
                             Uri.parse(comic.urls.get(0).url)))
